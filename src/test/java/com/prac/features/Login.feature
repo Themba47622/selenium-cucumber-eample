@@ -12,4 +12,4 @@ Feature: User Login
     When I type "standard_user" in the email field
     And I type "0000" in the password field
     And I click on the Login button
-    Then I an error message
+    Then I see an error message

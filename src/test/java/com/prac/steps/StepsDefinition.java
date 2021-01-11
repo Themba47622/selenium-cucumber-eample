@@ -50,7 +50,7 @@ public class StepsDefinition {
         products.verifyHomepage();
     }
 
-    @Then("^I an error message$")
+    @Then("^I see an error message$")
     public void login_error(){
         login.verifyLoginError();
     }
